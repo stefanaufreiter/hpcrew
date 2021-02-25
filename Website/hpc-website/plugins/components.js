@@ -26,7 +26,6 @@ import Timeline from '~/components/Timeline.vue'
 import Ruler from '~/components/Ruler.vue'
 import Kontakt from '~/components/Kontakt.vue'
 import KontaktInfo from '~/components/KontaktInfo.vue'
-import Modell from'~/components/Modell.vue'
 
 Vue.component('page', Page)
 Vue.component('teaser', Teaser)
@@ -55,4 +54,3 @@ Vue.component("timeline", Timeline)
 Vue.component("ruler", Ruler)
 Vue.component("kontakt", Kontakt)
 Vue.component("kontaktinfo", KontaktInfo)
-Vue.component("modell", Modell)
