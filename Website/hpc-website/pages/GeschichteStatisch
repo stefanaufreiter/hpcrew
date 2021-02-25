@@ -1,0 +1,38 @@
+<div class="tl-container">
+  <div class="timeline">
+    <ul>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">1. Februar 2021</h3>
+          <h2>Meilenstein 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">1. Februar 2021</h3>
+          <h2>Meilenstein 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">1. Februar 2021</h3>
+          <h2>Meilenstein 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">1. Februar 2021</h3>
+          <h2>Meilenstein 4</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
