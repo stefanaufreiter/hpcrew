@@ -10,7 +10,7 @@
   <div class="center box">
     <h2>Kontaktinfos</h2>
     <div class="content">
-      <a class="no-link" href="/contact#location">
+      <a class="no-link" href="/kontakt#location">
       <div class="place">
         <span class="fas"><img class="" src="/img/location.svg" alt="Standort-Icon" /></span>
         <span class="text">Krumau</span>
