@@ -1,10 +1,10 @@
 <template>
   <section>
     {{ members }}
-    <ul class="py-8 no-list">
+    <ul class="py-8 no-list" data-aos="zoom-in">
       <li
         v-for="member in stories" :key="member._uid"
-        class="mb-12 card-container hoverable" data-aos="fade-up" data-aos-duration="500">
+        class="mb-12 card-container hoverable">
           <member-teaser
             v-if="member.content"
             :member-link="member.full_slug"
