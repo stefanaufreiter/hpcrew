@@ -1595,18 +1595,26 @@ input[type="submit"] {
   font-size: 25px;
 }
 
+@media screen and (min-width: 2100px){
+  .news-body{
+    line-height: 120% !important;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   .news-intro {
     font-size: 2vw;
   }
+
+  .news-body {
+    text-align: justify;
+    hyphens: auto;
+    font-size: 1.5vw;
+    line-height: 55px;
+  }
 }
 
-.news-body {
-  text-align: justify;
-  hyphens: auto;
-  font-size: 1.5vw;
-  line-height: 55px;
-}
+
 
 /* FeaturedNews CSS */
 @media screen and (max-width: 500px) {
