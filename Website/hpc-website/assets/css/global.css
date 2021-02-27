@@ -709,8 +709,13 @@ a.button.buttonStyle:hover:after {
 @media screen and (max-width: 764px) {
   .htib {
     margin-left: 10%;
-    margin-right: auto;
+    margin-right: 10%;
     margin-bottom: 2rem;
+  }
+
+  .grid li:nth-child(2){
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
