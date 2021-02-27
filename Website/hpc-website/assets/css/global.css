@@ -91,7 +91,6 @@ ul {
   max-width: 70vw;
   max-height: 80vh;
   height: 60vh;
-
 }
 
 @media screen and (max-width: 500px) {
@@ -156,13 +155,19 @@ ul {
   visibility: visible;
 }
 
-.res-container{
+.res-container {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* Container CSS */
+@media screen and (min-width: 1500px) and (max-width:2100px) {
+  .res-container {
+    max-width: 1880px;
+  }
+}
+
 @media (min-width: 2100px) {
   .res-container {
     padding-left: 15px;
@@ -361,7 +366,7 @@ ul {
   color: #111 !important;
 }
 
-.overview-title{
+.overview-title {
   font-size: 45px !important;
   color: white;
 }
@@ -377,7 +382,7 @@ ul {
     width: 8vw !important;
   }
 
-  .overview-title{
+  .overview-title {
     font-size: 2.5vw !important;
   }
 
@@ -695,23 +700,23 @@ a.button.buttonStyle:hover:after {
   margin-top: 4rem;
 }
 
-.headertext{
+.headertext {
   width: 100%;
   padding-bottom: 4%;
 }
 
-.htib span{
+.htib span {
   margin-left: auto;
   margin-right: 15%;
 }
 
-.headertextDiv{
+.headertextDiv {
   width: 80%;
   margin-left: auto;
   margin-right: 15%;
 }
 
-.headertextDiv p{
+.headertextDiv p {
   width: 100%;
   font-size: 18px;
 }
@@ -723,14 +728,14 @@ a.button.buttonStyle:hover:after {
     margin-bottom: 2rem;
   }
 
-  .grid li:nth-child(2){
+  .grid li:nth-child(2) {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media screen and (min-width: 1500px){
-  .headertextDiv p{
+@media screen and (min-width: 1500px) {
+  .headertextDiv p {
     font-size: 1.25vw;
   }
 }
@@ -743,12 +748,12 @@ footer {
   /*background-color: #3D3D3D;*/
 }
 
-.imp{
+.imp {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1500px){
-  .imp{
+@media screen and (min-width: 1500px) {
+  .imp {
     font-size: 1.5vw;
     padding-right: 30%;
   }
@@ -1094,6 +1099,12 @@ section .kontaktContent .kontaktTitle {
   font-size: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  .LinkTable {
+    max-width: 50%;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   .LinkTable th {
     font-size: 1.5vw;
@@ -1418,6 +1429,10 @@ input[type="submit"] {
     flex-wrap: wrap;
   }
 
+  .memberImage {
+    max-width: 90%;
+  }
+
   .memberParagraph {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -1613,7 +1628,7 @@ input[type="submit"] {
   font-size: 1.7em;
 }
 
-.news-body{
+.news-body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -1621,8 +1636,8 @@ input[type="submit"] {
   font-size: 25px;
 }
 
-@media screen and (min-width: 2100px){
-  .news-body{
+@media screen and (min-width: 2100px) {
+  .news-body {
     line-height: 120% !important;
   }
 }
@@ -1639,8 +1654,6 @@ input[type="submit"] {
     line-height: 55px;
   }
 }
-
-
 
 /* FeaturedNews CSS */
 @media screen and (max-width: 500px) {
