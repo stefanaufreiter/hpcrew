@@ -22,7 +22,7 @@ export default {
   layout: 'main',
   data () {
     return {
-      projects: []
+      stories: []
     }
   },
   head(){
