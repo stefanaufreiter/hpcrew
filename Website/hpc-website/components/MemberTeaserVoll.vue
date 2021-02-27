@@ -8,10 +8,10 @@
           data-cycle-log="false">
           <img
             v-for="eimg in memberContent.vorschau"
-           :src="transformImage(eimg.filename, '600x350/smart')" class="memberImage"></img>
+           :src="transformImage(eimg.filename, '550x350/smart')" class="memberImage" width="550px" height="350px"></img>
         </div>
         <div v-else>
-          <img :src="transformImage(memberContent.img.filename, '600x350/smart')" class="memberImage"></img>
+          <img :src="transformImage(memberContent.img.filename, '550x350/smart')" class="memberImage" width="550px" height="350px"></img>
         </div>
         <div class="memberParagraph mx-auto">
           <h2 class="memberTitle ">
