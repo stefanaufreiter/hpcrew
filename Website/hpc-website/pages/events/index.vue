@@ -23,7 +23,7 @@ export default {
   layout: 'main',
   data () {
     return {
-      events: []
+      stories: []
     }
   },
   head(){
