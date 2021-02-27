@@ -6,7 +6,7 @@
       <li
         :key="blok._uid"
         v-for="blok in blok.columns"
-        class="px-6 ">
+        class="px-6 gridli">
         <component :blok="blok" :is="blok.component" />
       </li>
     </ul>
