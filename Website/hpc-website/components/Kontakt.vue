@@ -42,20 +42,20 @@
               </div>
             </section>
           </div>
-          <div class="contactform">
+          <form method="post" role="form" class="contactform" action="https://getsimpleform.com/messages?form_api_token=a32192aa713a18f6dea30b25b7414577">
             <div class="container">
               <h2>Kontaktformular</h2>
               <div class="row100">
                 <div class="col">
                   <div class="inputBox">
-                    <input type="text" required>
+                    <input name="vname" type="text" required>
                     <span class="text">Vorname</span>
                     <span class="line"></span>
                   </div>
                 </div>
                 <div class="col">
                   <div class="inputBox">
-                    <input type="text" required>
+                    <input name="nname" type="text" required>
                     <span class="text">Nachname</span>
                     <span class="line"></span>
                   </div>
@@ -64,14 +64,14 @@
               <div class="row100">
                 <div class="col">
                   <div class="inputBox">
-                    <input type="text" required>
+                    <input name="email" type="text" required>
                     <span class="text">Email</span>
                     <span class="line"></span>
                   </div>
                 </div>
                 <div class="col">
                   <div class="inputBox">
-                    <input type="text" required>
+                    <input name="telnr" type="text" required>
                     <span class="text">Tel-Nr</span>
                     <span class="line"></span>
                   </div>
@@ -80,7 +80,7 @@
               <div class="row100">
                 <div class="col">
                   <div class="inputBox textarea">
-                    <textarea required></textarea>
+                    <textarea name="message" required></textarea>
                     <span class="text">Nachricht eingeben:</span>
                     <span class="line"></span>
                   </div>
@@ -88,11 +88,11 @@
               </div>
                 <div class="row100">
                   <div class="col">
-                    <input type="submit" value="Absenden">
+                    <input class="welcomeButton" type="submit" value="Absenden" name="send">
                 </div>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
   </div>
