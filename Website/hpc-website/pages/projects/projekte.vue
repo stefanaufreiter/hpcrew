@@ -15,7 +15,7 @@
           </li>
         </ul>
       </div>
-      <ul class="flex-3 py-6 mb-6 no-list card-container">
+      <!--<ul class="flex-3 py-6 mb-6 no-list card-container">
         <li
           v-for="project in stories" :key="project._uid"
           class="mb-12 px-6">
@@ -25,7 +25,7 @@
             :project-content="project.content"/>
           <p v-else class="px-4 py-2 text-white bg-red-700 text-center rounded">This content loads on save. <strong>Save the entry & reload.</strong></p>
         </li>
-      </ul>
+      </ul>-->
       <nuxt-child  />
     </section>
   </div>

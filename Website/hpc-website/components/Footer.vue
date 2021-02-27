@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="right box">
-    <h2>Links & Impressum</h2>
+    <h2>Links &amp; Impressum</h2>
     <div class="content">
       <div class="social">
         <a href="https://www.facebook.com/HPC-High-Performance-Crew-239566859587442"><span class="fab fa-facebook-f"></span></a>

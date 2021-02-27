@@ -22,7 +22,6 @@
                 <p>Auf unserer Webseite nutzen wir Google Fonts der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA).
                    Wir haben die Google-Schriftarten lokal, d.h. auf unserem Webserver – nicht auf den Servern von Google – eingebunden.
                    Dadurch gibt es diesbezüglich keine Verbindung zu Google-Servern und somit auch keine Datenübertragung oder Speicherung.</p>
-
         </article>
       </main>
     </section>

@@ -11,7 +11,7 @@
             v-if="event.content"
             :event-link="event.full_slug"
             :event-content="event.content"/>
-          <p v-else class="px-4 py-2 text-white bg-red-700 text-center rounded">This content loads on save. <strong>Save the entry & reload.</strong></p>
+          <p v-else class="white text-center ">Der Content ladet nicht!<strong>Speichere ab &amp; neuladen.</strong></p>
         </li>
       </ul>
     </section>

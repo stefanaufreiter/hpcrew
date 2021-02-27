@@ -11,7 +11,7 @@
             v-if="newsPost.content"
             :news-link="newsPost.full_slug"
             :news-content="newsPost.content"/>
-          <p v-else class="px-4 py-2 text-white text-center">This content loads on save. <strong>Save the entry and reload.</strong></p>
+          <p v-else class="white text-center ">Der Content ladet nicht!<strong>Speichere ab &amp; neuladen.</strong></p>
         </li>
       </ul>
     </section>
