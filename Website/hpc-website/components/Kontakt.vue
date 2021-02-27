@@ -3,9 +3,7 @@
   v-editable="blok"
   class="my-24" data-aos="fade-up" data-aos-duration="500">
       <div class="my-24 news-div">
-        <div class="separator">
-          <span class="title news-title">{{blok.name}}</span>
-        </div>
+        <h1 class="my-24 overview-title text-center separator">Kontakt</h1>
         <div class="my-24 mx-auto news-body white">
           <div class="wrapper">
             <h2>{{blok.subname}}</h2>

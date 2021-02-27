@@ -34,8 +34,8 @@
       <div class="social">
         <a href="https://www.facebook.com/HPC-High-Performance-Crew-239566859587442"><span class="fab fa-facebook-f"></span></a>
         <a href="https://www.youtube.com/channel/UCfdmj3Y3S1zJgcgp2vsm_HA"><span class="fab fa-youtube"></span></a>
-        <br><br><a href="/impressum" class="no-link white">Impressum</a>
-        <a href="/dsgvo" class="no-link white">Datenschutz</a>
+        <br><br><a href="/impressum" class="no-link white imp">Impressum | </a>
+        <a href="/dsgvo" class="no-link white imp">Datenschutz</a>
       </div>
 
     </div>

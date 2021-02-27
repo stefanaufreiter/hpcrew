@@ -2,9 +2,7 @@
   <div
     v-editable="blok"
     class="my-24">
-    <div class="separator">
-      <span class="title project-title white">{{ blok.name }}</span>
-    </div>
+    <h1 class="my-24 overview-title text-center separator">Geschichte</h1>
     <div class="tl-container">
       <div class="timeline">
         <ul

@@ -1,13 +1,11 @@
 <template>
   <div class="my-24">
-    <div class="separator">
-      <span class="title project-title white">Impressum</span>
-    </div>
+    <h1 class="my-24 overview-title text-center separator">Impressum</h1>
     <section>
       <main class="Impressum">
         <article class="mx-auto white my-24">
           <h3 class="text-center">Verein High Performance Crew</h3>
-          <p><strong>Vereinssitz:</strong> Kampfeld 15
+          <p><strong>Vereinssitz:</strong> Krumau, 104
                                     3543  Krumau </p>
           <p><strong>Tel:</strong> +43 664 3502643</p>
           <p><strong>E-Mail:</strong> social@hpcrew.at</p>

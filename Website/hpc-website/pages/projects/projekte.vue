@@ -1,7 +1,7 @@
 <template>
   <div class="res-container">
     <section>
-      <h2 class="my-24 text-center separator">Projekte</h2>
+      <h1 class="my-24 overview-title text-center separator">Projekte</h1>
       <div class="text-center">
         <ul class="my-24 no-list flex-buttons" data-aos="fade-left" data-aos-duration="500">
           <li class="">

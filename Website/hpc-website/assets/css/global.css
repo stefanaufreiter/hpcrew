@@ -361,6 +361,11 @@ ul {
   color: #111 !important;
 }
 
+.overview-title{
+  font-size: 45px !important;
+  color: white;
+}
+
 .title {
   font-size: 2em;
   font-weight: bold;
@@ -370,6 +375,10 @@ ul {
 @media screen and (min-width: 1500px) {
   .Logo {
     width: 8vw !important;
+  }
+
+  .overview-title{
+    font-size: 2.5vw !important;
   }
 
   .title {
@@ -523,6 +532,7 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Raleway-Bold";
 }
 
 ul.topnav li.left {
@@ -731,6 +741,17 @@ footer {
   width: 100%;
   background-color: #111;
   /*background-color: #3D3D3D;*/
+}
+
+.imp{
+  font-size: 25px;
+}
+
+@media screen and (min-width: 1500px){
+  .imp{
+    font-size: 1.5vw;
+    padding-right: 30%;
+  }
 }
 
 .main-content {

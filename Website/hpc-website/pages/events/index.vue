@@ -1,7 +1,7 @@
 <template>
   <div class="res-container">
     <section>
-      <h2 class="my-24 text-center separator">Events Overview</h2>
+      <h1 class="overview-title my-24 text-center separator white">Bilder</h1>
       {{ events }}
       <ul class="flex-3 py-6 mb-6 no-list card-container" data-aos="fade-down" data-aos-duration="500">
         <li

@@ -1,7 +1,7 @@
 <template>
   <div class="res-container">
     <section>
-      <h2 class="my-24 text-center separator">News</h2>
+      <h1 class="my-24 text-center separator overview-title">News</h1>
       {{ news }}
       <ul class="flex-3 py-6 no-list card-container mb-24" data-aos="fade-down" data-aos-duration="500">
         <li

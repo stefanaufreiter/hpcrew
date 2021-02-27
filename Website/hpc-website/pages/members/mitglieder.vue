@@ -1,7 +1,7 @@
 <template>
     <div class="res-container ">
       <div class="minHeight my-24">
-        <h2 class="my-24 text-center separator">Mitglieder</h2>
+        <h1 class="my-24 text-center separator overview-title">Mitglieder</h1>
             <div class="text-center">
               <ul class="my-24 no-list flex-buttons" data-aos="fade-left" data-aos-duration="500">
                 <li class="">

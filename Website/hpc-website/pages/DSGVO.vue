@@ -1,8 +1,6 @@
 <template>
   <div class="my-24">
-    <div class="separator">
-      <span class="title project-title white">Datenschutzerklärung</span>
-    </div>
+    <h1 class="my-24 overview-title text-center separator">Datenschutzerklärung</h1>
     <section>
       <main class="Impressum">
         <article class="mx-auto white my-24">
