@@ -1,7 +1,7 @@
 <template>
   <div class="res-container">
     <section>
-      <h2 class="my-24 text-center separator">Projects Overview</h2>
+      <h2 class="my-24 text-center separator">Projekte</h2>
       <div class="text-center">
         <ul class="my-24 no-list flex-buttons" data-aos="fade-left" data-aos-duration="500">
           <li class="">
@@ -36,7 +36,7 @@ export default {
   layout: 'main',
   data () {
     return {
-      projects: []
+      stories: []
     }
   },
   head(){
