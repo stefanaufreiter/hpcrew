@@ -4,7 +4,7 @@
   <div class="left box">
     <h2>Über Uns</h2>
     <div class="content">
-      <p>HPCrew ist ein Verein ...</p>
+      <p>Die High Performance Crew ist ein Verein mit einer Schwäche für die Individualisierung von Autos.</p>
     </div>
   </div>
   <div class="center box">
