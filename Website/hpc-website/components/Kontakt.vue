@@ -42,7 +42,7 @@
               </div>
             </section>
           </div>
-          <form method="post" role="form" class="contactform" action="https://getsimpleform.com/messages?form_api_token=a32192aa713a18f6dea30b25b7414577">
+          <form method="post" role="form" class="contactform" action="https://getsimpleform.com/messages?form_api_token=fc522cda719ed81da4adcb3d60f56cb5">
             <div class="container">
               <h2>Kontaktformular</h2>
               <div class="row100">

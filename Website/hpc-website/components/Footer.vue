@@ -23,7 +23,7 @@
       <a class="no-link" href="mailto:social@hpcrew.at">
         <div class="email">
           <span class="fas"><img class="" src="/img/mail.svg" alt="Mail-Icon" /></span>
-          <span class="text">social@hpcrew.at</span>
+          <span class="text">contact@hpcrew.at</span>
         </div>
       </a>
     </div>
