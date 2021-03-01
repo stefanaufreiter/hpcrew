@@ -40,7 +40,7 @@ export default {
     }).catch((res) => {
       if (!res.response) {
         console.error(res)
-        context.error({ statusCode: 404, message: 'Failed to receive content form api' })
+        context.error({ statusCode: 404, message: 'Konnte keine Daten von der API empfangen' })
       } else {
         console.error(res.response.data)
         context.error({ statusCode: res.response.status, message: res.response.data })

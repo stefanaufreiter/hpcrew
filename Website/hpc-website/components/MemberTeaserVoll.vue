@@ -31,7 +31,7 @@
 export default {
   head: {
     script: [
-      { src: '/js/jquery-cycle2-min.js', body: true, ssr: false},
+      { src: '/js/jquery-cycle2-min.js', body: true},
       { src: '/js/cycleVoll.js', body: true, ssr: false}
     ]
   },
