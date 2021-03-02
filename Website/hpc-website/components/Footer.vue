@@ -4,7 +4,7 @@
   <div class="left box">
     <h2>Über Uns</h2>
     <div class="content">
-      <p>HPCrew ist ein Verein ...</p>
+      <p>Die High Performance Crew ist ein Verein mit einer Schwäche für die Individualisierung von Autos.</p>
     </div>
   </div>
   <div class="center box">
@@ -23,7 +23,7 @@
       <a class="no-link" href="mailto:social@hpcrew.at">
         <div class="email">
           <span class="fas"><img class="" src="/img/mail.svg" alt="Mail-Icon" /></span>
-          <span class="text">social@hpcrew.at</span>
+          <span class="text">contact@hpcrew.at</span>
         </div>
       </a>
     </div>
