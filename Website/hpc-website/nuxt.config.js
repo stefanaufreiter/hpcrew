@@ -59,7 +59,7 @@ export default {
   ],
 
   sitemap: {
-    hostname: 'https://ladedruck.hpcrew.at',
+    hostname: 'https://hpcrew.at',
     gzip: true,
     exclude: [
       '/Alte_Kontaktseite'
