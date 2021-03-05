@@ -23,7 +23,7 @@
           </div>
           <div class="error-div-left left text-center">
             <p class="error-font">Ein Fehler ist aufgetreten</p>
-            <p class="error-par cicd-gelb">Schade! Motorschaden ist aufgetreten.<br> Am besten Sie fangen wieder am Start an. </p>
+            <p class="error-par cicd-gelb">Schade! Ein Motorschaden ist aufgetreten.<br> Am besten Sie fangen wieder am Start an. </p>
           </div>
         </div>
       </div>
