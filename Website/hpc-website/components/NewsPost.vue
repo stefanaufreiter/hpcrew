@@ -3,7 +3,7 @@
     v-editable="blok"
     class="my-24 mx-auto news-div">
     <div class="separator">
-      <span class="title news-title">{{ blok.title }}</span>
+      <h1 class="title news-title">{{ blok.title }}</h1>
     </div>
     <p class="news-date">{{blok.date}}</p>
     <img class="mx-auto py-8" :src="blok.img.filename">

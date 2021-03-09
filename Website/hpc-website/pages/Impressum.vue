@@ -4,7 +4,7 @@
     <section>
       <main class="Impressum">
         <article class="mx-auto white my-24">
-          <h3 class="text-center">Verein High Performance Crew</h3>
+          <h2 class="text-center mb-24">Verein High Performance Crew</h2>
           <p><strong>Vereinssitz:</strong> Krumau, 104
                                     3543  Krumau </p>
           <p><strong>Tel:</strong> +43 664 3502643</p>

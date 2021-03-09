@@ -6,7 +6,7 @@
       <span class="loader"><img class="" src="../assets/img/reifen.svg" alt="" /></span>
     </div>-->
       <div class="separator">
-        <span class="title project-title white">{{ blok.title }}</span>
+        <h1 class="title project-title white">{{ blok.title }}</h1>
       </div>
       <p class="project-date white">{{blok.date}}</p>
       <article class="px-24 news-body justify">

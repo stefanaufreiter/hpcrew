@@ -3,7 +3,7 @@
     v-editable="blok"
     class="my-24 mx-auto project-div">
       <div class="separator">
-        <span class="title project-title white">{{ blok.name }}</span>
+        <h1 class="title project-title white">{{ blok.name }}</h1>
       </div>
       <img alt="Bild des Mitglieds" class="mx-auto py-8 px-8" :src="transformImage(blok.img.filename, '1000x0')">
       <article class="px-24 project-body justify">

@@ -7,7 +7,6 @@
             <img src="~/assets/img/error_transparent.gif" alt="Gif von einem kaputten Auto">
           </div>
           <div class="error-trenn">
-
           </div>
           <div class="error-div-left left text-center">
             <p class="error-font">404-Fehler</p>
