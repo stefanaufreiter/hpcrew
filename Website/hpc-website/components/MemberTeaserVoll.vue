@@ -4,14 +4,14 @@
       <div class="memberFlex px-12">
         <div v-if="memberContent.vorschau"
         class="cycle-slideshow" data-cycle-fx=fadeout
-          data-cycle-timeout=500
+          data-cycle-timeout=2000
           data-cycle-log="false">
           <img
             v-for="eimg in memberContent.vorschau"
-           :src="transformImage(eimg.filename, '550x350/smart')" class="memberImage" width="550px" height="350px"></img>
+           :src="transformImage(eimg.filename, '550x350/smart')" class="memberImage" width="550" height="350"></img>
         </div>
         <div v-else>
-          <img :src="transformImage(memberContent.img.filename, '550x350/smart')" class="memberImage" width="550px" height="350px"></img>
+          <img :src="transformImage(memberContent.img.filename, '550x350/smart')" class="memberImage" width="550" height="350"></img>
         </div>
         <div class="memberParagraph mx-auto">
           <h2 class="memberTitle ">

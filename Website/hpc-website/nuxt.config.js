@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'keywords', content: 'HPC, High Performance Crew, Krumau'},
+      { name: 'keywords', content: 'HPC, High Performance Crew, Krumau, Autotuning, Autoverein, Tuningbegeisterte, Tuning'},
       { name: 'description', content: 'HPC - High Performance Crew Der markenoffene Autoverein für Tuningbegeisterte!'}
     ],
     script: [
