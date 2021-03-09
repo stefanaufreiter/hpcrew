@@ -14,7 +14,7 @@
       />
     </article>
     <div v-if="blok.youtube.cached_url" class="">
-      <iframe class="iframe" width="1120" :src="blok.youtube.cached_url" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe title="Youtube-Video" class="iframe" width="1120" :src="blok.youtube.cached_url" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div v-else class="">
 

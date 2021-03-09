@@ -11,7 +11,7 @@
             :document="blok.body"
           />
         </div>
-        <img width="700px" height="auto" class="my-24 headertextImage" :src="transformImage(blok.img.filename, '700x0')"></img>
+        <img alt="Vereinbeschreibendes Bild" width="700" class="my-24 headertextImage" :src="transformImage(blok.img.filename, '700x0')"></img>
       </div>
       <div class="text-center">
         <a :href="blok.location.cached_url" class="welcomeButton mx-auto">{{blok.locationname}}</a>

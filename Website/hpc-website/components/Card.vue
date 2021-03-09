@@ -2,7 +2,7 @@
   <div class="mb-24">
     <div class="face face1">
       <div class="content">
-        <img :src="blok.img.filename" class="cardImage">
+        <img alt="Beschreibende Grafik" :src="blok.img.filename" class="cardImage">
         <div class="title">{{blok.titel}}</div>
       </div>
     </div>

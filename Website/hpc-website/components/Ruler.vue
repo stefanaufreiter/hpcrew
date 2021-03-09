@@ -1,7 +1,7 @@
 <template>
   <div class="ruler" data-aos="fade-up">
     <svg>
-      <image></image>
+      <image width="100%" height="154"></image>
     </svg>
   </div>
 </template>
