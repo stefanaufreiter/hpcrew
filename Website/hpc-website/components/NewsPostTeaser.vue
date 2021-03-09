@@ -2,7 +2,7 @@
   <nuxt-link
     :to="newsLink" class="no-link">
     <div class="featured-border px-12 py-8 hoverable">
-        <img class="featured-image" :src="transformImage(newsContent.thumbnail.filename,'300x0')">
+        <img alt="Vorschaubild des News-Beitrags" class="featured-image" :src="transformImage(newsContent.thumbnail.filename,'300x0')">
       <h2 class="">
         {{ newsContent.title }}
       </h2>
