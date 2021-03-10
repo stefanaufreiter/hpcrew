@@ -1,0 +1,8 @@
+# Group All
+User-agent: *
+Disallow: /links.html
+Disallow: /imsitemap.html
+Disallow: /aktuelles.html
+Disallow: /kontakt.html
+
+Sitemap: https://www.hpcrew.at/sitemap.xml

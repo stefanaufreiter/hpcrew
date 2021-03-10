@@ -63,10 +63,7 @@ export default {
 
   sitemap: {
     hostname: 'https://hpcrew.at',
-    gzip: true,
-    exclude: [
-      '/Alte_Kontaktseite'
-    ]
+    gzip: true
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
