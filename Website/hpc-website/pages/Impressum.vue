@@ -27,6 +27,11 @@
 
 <script>
 export default {
-  layout: 'main'
+  layout: 'main',
+  head(){
+    return {
+      title: "HPCrew - Impressum"
+    }
+  }
 }
 </script>

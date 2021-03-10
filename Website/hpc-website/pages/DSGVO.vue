@@ -30,6 +30,11 @@
 
 <script>
 export default {
-  layout: 'main'
+  layout: 'main',
+  head(){
+    return {
+      title: "HPCrew - DSGVO"
+    }
+  }
 }
 </script>
