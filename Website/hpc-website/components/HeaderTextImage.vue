@@ -8,7 +8,7 @@
         :document="blok.body"
       />
   </div>
-    <img class="mx-auto my-24" :src="blok.img.filename">
+    <img class="mx-auto my-24" :src="blok.img.filename" :alt="blok.name">
   </div>
 </template>
 

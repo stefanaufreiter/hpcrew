@@ -2,7 +2,7 @@
   <div
   v-editable="blok"
   class="my-24 mx-auto">
-    <span><img class="" :src="blok.img.filename" alt="Beschreibende Infografik" /></span>
+    <span><img :src="blok.img.filename" alt="Beschreibende Infografik" /></span>
     <span>{{blok.info}}</span>
   </div>
 </template>

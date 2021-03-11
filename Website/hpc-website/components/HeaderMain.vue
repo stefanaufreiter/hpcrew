@@ -68,7 +68,7 @@
         </div>
       </div>
     </nav>
-      <a id="button"></a>
+      <a id="button" alt="Back-To-Top Button"></a>
   </header>
 </template>
 
