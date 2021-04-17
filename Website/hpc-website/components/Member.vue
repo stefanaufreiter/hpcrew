@@ -5,6 +5,11 @@
       <div class="separator">
         <h1 class="title project-title white">{{ blok.name }}</h1>
       </div>
+      <div class="back-btn-div">
+      <v-btn text :ripple="false" class="back-btn welcomeButton" @click="to">
+        <p class="">&laquo; Alle Mitglieder</p>
+      </v-btn>
+    </div>
       <img alt="Bild des Mitglieds" class="mx-auto py-8 px-8" :src="transformImage(blok.img.filename, '1000x0')">
       <article class="px-24 project-body justify">
         <rich-text-renderer
@@ -34,6 +39,9 @@ export default {
       let imageService = "https://img2.storyblok.com/";
       let path = image.replace("https://a.storyblok.com", "");
       return imageService + option + path;
+    },
+    to() {
+      this.$router.go(-1);
     }
   },
   props: {

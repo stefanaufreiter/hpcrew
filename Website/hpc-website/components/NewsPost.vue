@@ -6,7 +6,12 @@
       <h1 class="title news-title">{{ blok.title }}</h1>
     </div>
     <p class="news-date">{{blok.date}}</p>
-    <img class="mx-auto py-8" :src="blok.img.filename">
+    <div class="back-btn-div">
+    <v-btn text :ripple="false" class="back-btn welcomeButton" @click="to">
+      <p class="">&laquo; Alle Newsbeiträge</p>
+    </v-btn>
+  </div>
+    <img class="mx-auto py-8" :src="blok.img.filename" />
     <p class="news-intro py-8 px-24">{{ blok.intro }}</p>
     <article class="px-24 my-24 news-body justify white mx-auto">
       <rich-text-renderer
@@ -24,6 +29,11 @@
 
 <script>
 export default {
+  methods: {
+    to() {
+      this.$router.go(-1);
+    }
+  },
   props: {
     blok: {
       type: Object,

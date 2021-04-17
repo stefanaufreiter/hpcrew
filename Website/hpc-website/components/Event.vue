@@ -9,6 +9,11 @@
         <h1 class="title project-title white">{{ blok.title }}</h1>
       </div>
       <p class="project-date white">{{blok.date}}</p>
+      <div class="back-btn-div">
+      <v-btn text :ripple="false" class="back-btn welcomeButton" @click="to">
+        <p class="">&laquo; Alle Events</p>
+      </v-btn>
+    </div>
       <article class="px-24 news-body justify">
         <rich-text-renderer
           :document="blok.body"
@@ -47,6 +52,9 @@ export default {
         let height = url.split('/')[5].split('x')[1];
 
       return "padding-bottom: calc(("+ height + "/" + width + ")*100%);"
+    },
+    to() {
+      this.$router.go(-1);
     }
   },
   props: {
