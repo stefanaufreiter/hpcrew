@@ -3,7 +3,7 @@
     v-editable="blok"
     class="my-24 mx-auto project-div">
       <div class="separator">
-        <h1 class=" title project-title white">{{ blok.title }}</h1>
+        <h1 role="heading" class="title project-title white">{{ blok.title }}</h1>
       </div>
       <p class="project-date white">{{blok.date}}</p>
       <div class="back-btn-div">
@@ -11,7 +11,7 @@
         <p class="">&laquo; Alle Projekte</p>
       </v-btn>
     </div>
-      <article class="px-24 news-body justify">
+      <article role="article" class="px-24 news-body justify">
         <rich-text-renderer
           :document="blok.body"
         />

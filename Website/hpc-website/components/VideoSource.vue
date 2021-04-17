@@ -4,7 +4,7 @@
         <source :src="blok.video.filename" type="video/mp4">
       </video>
     <div class="landingText-Container">
-      <h1 class="landingText cicd-gelb">High Performance Crew </h1>
+      <h1 role="heading" class="landingText cicd-gelb">High Performance Crew </h1>
       <!--<a href="#welcomeAnchor"><img src="~/assets/img/arrow.svg" class="arrow bounce"></img></a>-->
     </div>
   </div>

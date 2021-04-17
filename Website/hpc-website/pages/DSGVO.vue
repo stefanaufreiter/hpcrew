@@ -3,7 +3,7 @@
     <h1 class="my-24 overview-title text-center separator">Datenschutzerklärung</h1>
     <section>
       <main class="Impressum">
-        <article class="mx-auto white my-24">
+        <article role="article" class="mx-auto white my-24">
           <h3 class="text-center">Offenlegung nach §25 Mediengesetz</h3>
           <h4>Speicherung persönlicher Daten</h4>
           <p>Persönliche Daten, die Sie uns auf dieser Website übermitteln,

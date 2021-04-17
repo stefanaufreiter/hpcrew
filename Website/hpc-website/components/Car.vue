@@ -5,14 +5,14 @@
       <div class="">
         <span class=" title project-title white titledec">{{ blok.title }}</span>
       </div>
-      <article class="px-24 project-body justify">
+      <article role="article" class="px-24 project-body justify">
         <rich-text-renderer
           :document="blok.body"
         />
     </article>
     <div class="car-gallery">
       <div v-for="eimg in blok.img" class="car-hover">
-          <a :href="eimg.filename" :data-lightbox="blok.title" >
+          <a role="link" :href="eimg.filename" :data-lightbox="blok.title" >
             <picture>
               <source :srcset="transformImage(eimg.filename, '185x0/filters:format(webp)')" type="image/webp">
               <img width="185" :alt="blok.title" :src="transformImage(eimg.filename, '185x0')"></img>

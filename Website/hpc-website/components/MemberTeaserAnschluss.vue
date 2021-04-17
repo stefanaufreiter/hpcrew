@@ -17,7 +17,7 @@
           <h2 class="memberTitle ">
             {{ memberContent.name }}
           </h2>
-          <article>
+          <article role="article">
             <rich-text-renderer
               :document="memberContent.body"
             />

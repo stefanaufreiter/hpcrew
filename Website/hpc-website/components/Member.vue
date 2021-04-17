@@ -3,7 +3,7 @@
     v-editable="blok"
     class="my-24 mx-auto project-div">
       <div class="separator">
-        <h1 class="title project-title white">{{ blok.name }}</h1>
+        <h1 role="heading" class="title project-title white">{{ blok.name }}</h1>
       </div>
       <div class="back-btn-div">
         <v-btn text :ripple="false" class="back-btn welcomeButton" @click="to">
@@ -11,7 +11,7 @@
         </v-btn>
       </div>
       <img alt="Bild des Mitglieds" class="mx-auto py-8 px-8" width="1000" :src="transformImage(blok.img.filename, '1000x0')">
-      <article class="px-24 project-body mx-auto justify">
+      <article role="article" class="px-24 project-body mx-auto justify">
         <rich-text-renderer
           :document="blok.body"
         />

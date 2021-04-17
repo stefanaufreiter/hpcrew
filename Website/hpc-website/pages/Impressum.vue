@@ -3,7 +3,7 @@
     <h1 class="my-24 overview-title text-center separator">Impressum</h1>
     <section>
       <main class="Impressum">
-        <article class="mx-auto white my-24">
+        <article role="article" class="mx-auto white my-24">
           <h2 class="text-center mb-24">Verein High Performance Crew</h2>
           <p><strong>Vereinssitz:</strong> Krumau, 104
                                     3543  Krumau </p>
@@ -13,7 +13,7 @@
           Gewerbeordnung: www.ris.bka.gv.at</p>
           <p><strong>Aufsichtsbehörde:</strong> Bezirkshauptmannschaft Krems </p>
           <p><strong>ZVR-Zahl:</strong> 861 656 630</p>
-          <p>Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbelegungsplattform der EU zu richten: <a class="no-link" href="http://ec.europa.eu/odr">http://ec.europa.eu/odr</a>.
+          <p>Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbelegungsplattform der EU zu richten: <a role="link" class="no-link" href="http://ec.europa.eu/odr">http://ec.europa.eu/odr</a>.
           <br>Sie können allfällige Beschwerde auch an die oben angegebene E-Mai-Adresse richten.</p><br><br>
 
           <p><strong>Ersteller:</strong> Nicolas Plank</p>

@@ -1,6 +1,6 @@
 <template>
   <div class="ruler" data-aos="fade-up">
-    <svg>
+    <svg role="graphics-document">
       <image width="100%" height="154"></image>
     </svg>
   </div>

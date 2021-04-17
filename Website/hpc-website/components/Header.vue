@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navigation">
+    <nav role="navigation" class="navigation">
       <div class="nav-content">
         <div class="left">
           <img src="~/assets/img/Logo_small_dark.svg" class="Logo" alt="Logo"> </img>

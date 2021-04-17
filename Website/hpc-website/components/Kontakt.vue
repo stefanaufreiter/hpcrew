@@ -3,7 +3,7 @@
   v-editable="blok"
   class="my-24" data-aos="fade-up" data-aos-duration="500">
       <div class="my-24 news-div">
-        <h1 class="my-24 overview-title text-center separator">Kontakt</h1>
+        <h1 role="heading" class="my-24 overview-title text-center separator">Kontakt</h1>
         <div class="my-24 mx-auto news-body white">
           <div class="wrapper">
             <h2>{{blok.subname}}</h2>
@@ -27,15 +27,15 @@
               </div>
               <div class="kontaktContent kontaktContent-3">
                 <div class="kontaktTitle">{{blok.paragraph3}}</div>
-                <table class="LinkTable">
-                  <thead>
-                    <tr>
-                        <th v-for="th in blok.subparagraph3.thead">{{ th.value }}</th>
+                <table role="table" class="LinkTable">
+                  <thead role="rowgroup">
+                    <tr role="row">
+                        <th role="columnheader" v-for="th in blok.subparagraph3.thead">{{ th.value }}</th>
                     </tr>
                   </thead>
-                  <tbody>
-                      <tr v-for="(tr, index) in blok.subparagraph3.tbody">
-                          <td v-for="td in tr.body">{{ td.value }}</td>
+                  <tbody role="rowgroup">
+                      <tr role="row" v-for="(tr, index) in blok.subparagraph3.tbody">
+                          <td role="cell" v-for="td in tr.body">{{ td.value }}</td>
                       </tr>
                   </tbody>
                 </table>
@@ -48,15 +48,15 @@
               <div class="row100">
                 <div class="col">
                   <div class="inputBox">
-                    <input name="vname" type="text" required>
-                    <span class="text">Vorname</span>
+                    <input id="vorname" name="vname" type="text" required>
+                    <label for="vorname" class="text">Vorname</label>
                     <span class="line"></span>
                   </div>
                 </div>
                 <div class="col">
                   <div class="inputBox">
-                    <input name="nname" type="text" required>
-                    <span class="text">Nachname</span>
+                    <input id="nachname" name="nname" type="text" required>
+                    <label for="nachname" class="text">Nachname</label>
                     <span class="line"></span>
                   </div>
                 </div>
@@ -64,15 +64,15 @@
               <div class="row100">
                 <div class="col">
                   <div class="inputBox">
-                    <input name="email" type="text" required>
-                    <span class="text">Email</span>
+                    <input id="email" name="email" type="text" required>
+                    <label for="email" class="text">Email</label>
                     <span class="line"></span>
                   </div>
                 </div>
                 <div class="col">
                   <div class="inputBox">
-                    <input name="telnr" type="text" required>
-                    <span class="text">Tel-Nr</span>
+                    <input id="telnr" name="telnr" type="text" required>
+                    <label for="telnr" class="text">Tel-Nr</label>
                     <span class="line"></span>
                   </div>
                 </div>
@@ -80,15 +80,15 @@
               <div class="row100">
                 <div class="col">
                   <div class="inputBox textarea">
-                    <textarea name="message" required></textarea>
-                    <span class="text">Nachricht eingeben:</span>
+                    <textarea role="textbox" name="message" required></textarea>
+                    <label id="message" class="text">Nachricht eingeben:</label>
                     <span class="line"></span>
                   </div>
                 </div>
               </div>
                 <div class="row100">
                   <div class="col">
-                    <input class="welcomeButton" type="submit" value="Absenden" name="send">
+                    <input role="button" class="welcomeButton" type="submit" value="Absenden" name="send" />
                 </div>
               </div>
             </div>

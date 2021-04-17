@@ -9,7 +9,7 @@
     <div class="face face2">
       <div class="content">
           <p>{{blok.info}}</p>
-          <a :href="blok.location.cached_url" class="welcomeButton">{{blok.locationname}}</a>
+          <a role="link" :href="blok.location.cached_url" class="welcomeButton">{{blok.locationname}}</a>
       </div>
     </div>
   </div>

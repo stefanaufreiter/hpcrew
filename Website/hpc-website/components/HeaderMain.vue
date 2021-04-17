@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navigationMain">
+    <nav role="navigation" class="navigationMain">
       <div class="nav-content">
         <div class="left">
           <nuxt-link
