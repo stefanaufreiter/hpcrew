@@ -6,12 +6,12 @@
         <h1 class="title project-title white">{{ blok.name }}</h1>
       </div>
       <div class="back-btn-div">
-      <v-btn text :ripple="false" class="back-btn welcomeButton" @click="to">
-        <p class="">&laquo; Alle Mitglieder</p>
-      </v-btn>
-    </div>
-      <img alt="Bild des Mitglieds" class="mx-auto py-8 px-8" :src="transformImage(blok.img.filename, '1000x0')">
-      <article class="px-24 project-body justify">
+        <v-btn text :ripple="false" class="back-btn welcomeButton" @click="to">
+          <p class="">&laquo; Alle Mitglieder</p>
+        </v-btn>
+      </div>
+      <img alt="Bild des Mitglieds" class="mx-auto py-8 px-8" width="1000" :src="transformImage(blok.img.filename, '1000x0')">
+      <article class="px-24 project-body mx-auto justify">
         <rich-text-renderer
           :document="blok.body"
         />

@@ -449,8 +449,8 @@ ul {
 
 @media screen and (max-width: 600px) {
   .mx-auto {
-    width: 70vw;
-    height: auto;
+    width: 70vw !important;
+    height: auto !important;
   }
 
   .my-24 {
@@ -1624,6 +1624,7 @@ input[type="submit"] {
 @media screen and (max-width: 600px) {
   .separator {
     margin-top: 100px;
+    display: block;
   }
 }
 
@@ -1798,6 +1799,17 @@ input[type="submit"] {
 /* Project CSS */
 .project-div {
   text-align: center;
+}
+
+.project-div article {
+  width: 65%;
+}
+
+@media screen and (max-width: 800px) {
+  .project-div article {
+    text-align: left;
+    width: 95%;
+  }
 }
 
 .project-body {
