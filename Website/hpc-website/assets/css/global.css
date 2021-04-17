@@ -186,11 +186,13 @@ ul {
     margin-top: 5%;
   }
 
-  .card-container .card:hover .face {
+  .card-container .card:hover .face,
+  .card-container .card:active .face {
     height: auto;
   }
 
-  .card-container .card:hover .face.face2 {
+  .card-container .card:hover .face.face2,
+  .card-container .card:active .face.face2 {
     transform: translateY(0px) !important;
   }
 
@@ -2154,8 +2156,6 @@ section {
   padding-top: 15%;
 }
 
-.card-container .card:hover .cardImage {}
-
 .cardGrid li:nth-child(1) .face.face1 .content .cardImage {
   margin-left: 10%;
 }
@@ -2221,7 +2221,8 @@ section {
   }
 }
 
-.card-container .card:hover .face.face1 {
+.card-container .card:hover .face.face1,
+.card-container .card:active .face.face1 {
   background: #F4C522;
   transform: translateY(0px);
 }
@@ -2232,7 +2233,8 @@ section {
   padding-bottom: 50px;
 }
 
-.card-container .card:hover .face.face1 .content {
+.card-container .card:hover .face.face1 .content,
+.card-container .card:active .face.face1 .content {
   opacity: 1;
 }
 
@@ -2260,7 +2262,8 @@ section {
   transform: translateY(-100px);
 }
 
-.card-container .card:hover .face.face2 {
+.card-container .card:hover .face.face2,
+.card-container .card:active .face.face2 {
   transform: translateY(-30px);
 }
 
