@@ -449,7 +449,7 @@ ul {
 
 @media screen and (max-width: 600px) {
   .mx-auto {
-    width: 80vw !important;
+    width: 80% !important;
     height: auto !important;
   }
 
