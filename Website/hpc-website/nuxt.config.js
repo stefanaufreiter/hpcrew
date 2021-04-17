@@ -9,7 +9,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'keywords', content: 'HPC, High Performance Crew, Krumau, Autotuning, Autoverein, Tuningbegeisterte, Tuning'},
-      { name: 'description', content: 'HPC - High Performance Crew Der markenoffene Autoverein für Tuningbegeisterte!'}
+      { name: 'description', content: 'HPC - High Performance Crew Der markenoffene Autoverein für Tuningbegeisterte!'},
+      { 'http-equiv': 'Content-Security-Policy', content: "frame-src https://www.youtube.com/embed/ https://www.google.com/maps/"}
     ],
     script: [
       {
