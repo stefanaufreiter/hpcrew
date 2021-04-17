@@ -15,7 +15,7 @@
           <a :href="eimg.filename" :data-lightbox="blok.title" >
             <picture>
               <source :srcset="transformImage(eimg.filename, '185x0/filters:format(webp)')" type="image/webp">
-              <img :alt="blok.title" class="" :src="transformImage(eimg.filename, '185x0')"></img>
+              <img width="185" :alt="blok.title" :src="transformImage(eimg.filename, '185x0')"></img>
             </picture>
           </a>
       </div>

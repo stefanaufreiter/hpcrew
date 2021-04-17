@@ -3,7 +3,7 @@
     :to="eventLink" class="no-link">
     <div class="featured-card">
       <div class="imgBx">
-        <img :alt="eventContent.title" :src="transformImage(eventContent.img[0].filename, '300x350')">
+        <img width="300" height="350" :alt="eventContent.title" :src="transformImage(eventContent.img[0].filename, '300x350')">
       </div>
       <div class="featured-details">
       <h2 class="">

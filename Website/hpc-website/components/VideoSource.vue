@@ -1,6 +1,6 @@
 <template>
   <div class="landingPage">
-      <video loop autoplay id="landingVideo" muted playsinline>
+      <video width="1908" loop autoplay id="landingVideo" muted playsinline>
         <source :src="blok.video.filename" type="video/mp4">
       </video>
     <div class="landingText-Container">

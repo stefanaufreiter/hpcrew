@@ -19,7 +19,7 @@
     <div class="project-gallery">
       <div v-for="eimg in blok.img" class="gallery-hover" :style="dynamicPadding(eimg.filename)">
         <a :href="eimg.filename" :data-lightbox="blok.title" >
-          <img :src="transformImage(eimg.filename, '370x0')" :alt="blok.title">
+          <img :src="transformImage(eimg.filename, '370x0')" width="370" :alt="blok.title">
         </a>
       </div>
     </div>
