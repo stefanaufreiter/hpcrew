@@ -1608,6 +1608,13 @@ input[type="submit"] {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .back-btn-div {
+    padding-bottom: 10%;
+     !important
+  }
+}
+
 .back-btn {
   margin-left: 10%;
   float: left;
