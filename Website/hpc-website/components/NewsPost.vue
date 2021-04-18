@@ -5,7 +5,7 @@
     <div class="separator">
       <h1 role="heading" class="title news-title">{{ blok.title }}</h1>
     </div>
-    <p class="news-date">{{blok.date}}</p>
+    <p class="news-date">{{parseTime(blok.date)}}</p>
     <div class="back-btn-div">
     <v-btn text :ripple="false" class="back-btn welcomeButton" @click="to">
       <p class="">&laquo; Alle Newsbeiträge</p>
@@ -32,6 +32,17 @@ export default {
   methods: {
     to() {
       this.$router.go(-1);
+    },
+    parseTime(predate){
+      var date = new Date(predate);
+
+      var tag = date.getDate();
+      var monat = date.getMonth() + 1;
+      var jahr = date.getFullYear();
+
+      var dateStr = "Beitrag vom " + tag + "/" + monat + "/" + jahr;
+
+      return dateStr;
     }
   },
   props: {

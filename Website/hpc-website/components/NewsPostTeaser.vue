@@ -9,6 +9,9 @@
       <p class="white">
         {{ newsContent.intro }}
       </p>
+      <v-btn text :ripple="false" class="weiterlesenBtn" :to="newsLink">
+        <p>weiterlesen</p>
+      </v-btn>
     </div>
   </nuxt-link>
 </template>
