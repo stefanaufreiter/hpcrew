@@ -19,6 +19,9 @@ export default {
       {
         src: "https://kit.fontawesome.com/c1a401d892.js",
         crossorigin: "anonymous"
+      },
+      {
+        src: "https://cmp.osano.com/6olaqSV2vR1eyoc/a1d8d2a1-9ca8-48e9-a7cd-44c92fc098b8/osano.js"
       }
     ]
   },
