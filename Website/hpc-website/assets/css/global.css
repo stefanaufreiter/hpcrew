@@ -1163,6 +1163,10 @@ section .kontaktContent .kontaktTitle {
   }
 }
 
+#maps {
+  display: none;
+}
+
 .contactform .container h2 {
   width: 100%;
   color: #F4C522;

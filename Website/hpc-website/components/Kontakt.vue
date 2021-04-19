@@ -19,7 +19,7 @@
             <section class="kontaktSection">
               <div class="kontaktContent kontaktContent-1" id="location">
                 <div class="kontaktTitle">{{blok.paragraph1}}</div>
-                <iframe title="Google Maps Standort" class="iframe" :src="blok.maps.cached_url" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe id="maps" title="Google Maps Standort" class="iframe" :src="blok.maps.cached_url" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
               </div>
               <div class="kontaktContent kontaktContent-2">
                 <div class="kontaktTitle">{{blok.paragraph2}}</div>
@@ -118,7 +118,8 @@ export default {
         {
           src:
             'https://kit.fontawesome.com/a076d05399.js'
-        }
+        },
+        {src: '/js/ToggleiFrame.js', body: true}
       ]
     }
   }
