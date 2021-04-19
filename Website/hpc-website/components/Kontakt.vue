@@ -19,7 +19,9 @@
             <section class="kontaktSection">
               <div class="kontaktContent kontaktContent-1" id="location">
                 <div class="kontaktTitle">{{blok.paragraph1}}</div>
-                <iframe id="maps" title="Google Maps Standort" class="iframe" :src="blok.maps.cached_url" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <!--<iframe id="maps" title="Google Maps Standort" class="iframe" :src="blok.maps.cached_url" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
+                <p>Krumau am Kamp 104,<br> 
+                  3543 Krumau am Kamp</p>
               </div>
               <div class="kontaktContent kontaktContent-2">
                 <div class="kontaktTitle">{{blok.paragraph2}}</div>
