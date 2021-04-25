@@ -1899,6 +1899,13 @@ input[type="submit"] {
   height: auto !important;
 }
 
+@media screen and (max-width: 1100px) {
+  .car-gallery img {
+    width: 25vw !important;
+    height: auto !important;
+  }
+}
+
 .webp {
   width: 100% !important;
   height: auto !important;
